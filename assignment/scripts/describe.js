@@ -133,11 +133,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// directions say the colorOne is blue and colorTwo is red. Fix below:
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+//
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // directions say that we should also set colorTwo to purple. Fix below:
+  // colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -150,6 +156,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// directions say both of these should be true. Current sign means or. Fix below:
+// if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
