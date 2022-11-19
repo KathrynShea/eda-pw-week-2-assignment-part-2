@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a variable called name and set it to the string "Dane".
-// Then we check if name is "Mary". If it is, then we output console "Hi, Mary".
+// Then we check if name is "Mary". If it is, then we output console "Hi, Mary!".
 // If name is not "Mary", then we output to console "How do you do?".
 // In this case, we would output "How do you do?".
 
@@ -46,10 +46,11 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create a variable called secret and a variable called code that we set to the number 123. 
-// We then check if the code is equal to 123. If it is, then the variable secret is assigned the string "super" and the 
+// We then check if code is equal to 123. If it is, then the variable secret is assigned the string "super" and the 
 // variable code becomes itself times 2.
 // We then check if code is greater than 250. If it is, then the variable secret is assigned "duper".
-// Then we output to console secret ("super").
+// Then we output to console secret 
+// In this case, we would only output "super".
 
 //CODE
 /*
@@ -71,12 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create a boolean variable name isStudent is set it to true. We create a variable named age and set it to 34. We create
+// We create a boolean variable named isStudent and set it to true. We create a variable named age and set it to 34. We create
 // another variable named zip and set it to 55407.
 // We check to see if isStudent is true and if zip is greater than 80000. If it is, we output to console "You're a student on the West Coast!".
 // If this is not the case, then we check if isStudent is false or if age is less than 30. If so we output to console "What are your hobbies?"
 // If that is also not the case, then we check if isStudent is true. If so we output to console "Welcome to Prime!".
 // If none of these are true, then we output to console "How about the weather?".
+// In this case we would output "Welcome to Prime!"
 
 //CODE
 /*
@@ -172,8 +174,11 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // the directions say that if age is greater than or equal to minAge then we should output "enter". fix below:
+  // console.log('enter');
   console.log('no entry');
 } else {
+  // FIX:console.log('no entry');
   console.log('enter');
 }
 */
